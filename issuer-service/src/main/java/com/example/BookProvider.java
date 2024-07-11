@@ -18,7 +18,7 @@ public class BookProvider {
     public UUID getRandomBookID() {
 
         BookResponse randomBook = webClient.get()
-                .uri("http://localhost:8180/api/book/random")
+                .uri("http://book-service/api/book/random")
                 .retrieve()
                 .bodyToMono(BookResponse.class)
                 .block();
