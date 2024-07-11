@@ -25,6 +25,7 @@
         <module>book-service</module>
 		<module>issuer-service</module>
 		<module>discovery-service</module>
+		<module>discovery-service</module>
 	</modules>
     <scm>
 		<connection/>
